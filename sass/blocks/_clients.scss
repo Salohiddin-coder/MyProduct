@@ -1,3 +1,7 @@
+.clients {
+  padding-bottom: 150px;
+}
+
 .clients__texts {
   margin: 0 auto;
   width: 100%;
@@ -28,6 +32,7 @@
 
 .clients__list {
   display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -44,4 +49,46 @@
 
 .clients__text {
   margin: 16px 0;
+}
+
+.clients__box {
+  display: flex;
+}
+
+.clients__names {
+  margin-left: 14px;
+}
+
+.clients__name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+
+.clients__strong-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+
+@media only screen and (max-width: 520px) {
+  .clients__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clients__item {
+    margin-bottom: 32px;
+  }
+
+  .clients__item:nth-child(3) {
+    margin-bottom: 0;
+  }
 }
