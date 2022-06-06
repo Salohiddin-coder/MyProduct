@@ -1297,4 +1297,121 @@ img {
 .price {
   padding-top: 150px;
 }
+
+.price__wrapper {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.price__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+  text-align: center;
+}
+
+.price__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  text-align: center;
+}
+
+.price__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.price__item {
+  padding-top: 24px;
+  padding-bottom: 43px;
+  width: 100%;
+  max-width: 323px;
+  text-align: center;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.price__name {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.sublist {
+  margin-top: 16px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.subitem:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.subitem:nth-child(3) {
+  margin-bottom: 16px;
+}
+
+.subitem:nth-child(4) {
+  margin-bottom: 49px;
+}
+
+.subitem:nth-child(5) > .subitem__link {
+  padding: 11px 19px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #02897A;
+  border-radius: 8px;
+}
+
+.subitem__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.subitem__img {
+  margin-right: 8px;
+}
+
+.subitem__box-inner {
+  text-align: left;
+}
+
+.subitem__info {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+}
+
+.subitem__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
 /*# sourceMappingURL=main.css.map */
