@@ -1252,6 +1252,24 @@ img {
   }
 }
 
+.content__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.content__info {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
 .circle-btn {
   width: 16px;
   height: 16px;
