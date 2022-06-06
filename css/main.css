@@ -1600,6 +1600,15 @@ img {
   }
 }
 
+.suggestion__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .box {
   margin-bottom: 150px;
   display: -webkit-box;
