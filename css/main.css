@@ -1762,4 +1762,12 @@ img {
   line-height: 35px;
   color: #22343D;
 }
+
+.footer__text-strong {
+  margin-bottom: 34px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+}
 /*# sourceMappingURL=main.css.map */
