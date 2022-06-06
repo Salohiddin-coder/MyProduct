@@ -1496,4 +1496,54 @@ img {
     margin-bottom: 0;
   }
 }
+
+.clients__texts {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 537px;
+  text-align: center;
+}
+
+.clients__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.clients__info {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.clients__item {
+  padding: 28px 26px 24px 26px;
+  width: 100%;
+  max-width: 327px;
+  background-color: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.clients__text {
+  margin: 16px 0;
+}
 /*# sourceMappingURL=main.css.map */
