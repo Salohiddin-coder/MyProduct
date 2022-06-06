@@ -1251,4 +1251,50 @@ img {
     max-height: 88px;
   }
 }
+
+.circle-btn {
+  width: 16px;
+  height: 16px;
+  border-radius: 50 .circle-btn;
+}
+
+.btns {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+.btns:nth-child(3) {
+  margin-right: 0;
+}
+
+.actives {
+  background-color: #22343d;
+}
+
+.carousel__indicators {
+  position: absolute;
+  right: 0;
+  bottom: -64px;
+  left: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.price {
+  padding-top: 150px;
+}
 /*# sourceMappingURL=main.css.map */
