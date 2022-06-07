@@ -70,6 +70,20 @@
   display: none;
 }
 
+.navbar__button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+}
+
+.navbar__button > svg {
+  display: block;
+}
+
 
 
 @media only screen and (max-width:520px) {
@@ -78,7 +92,7 @@
   }
 
   .navbar {
-    display: none;
+    // display: none;
   }
 
   .navbar__burger-button {

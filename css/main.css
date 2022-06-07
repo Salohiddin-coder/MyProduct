@@ -508,12 +508,23 @@ img {
   display: none;
 }
 
+.navbar__button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+}
+
+.navbar__button > svg {
+  display: block;
+}
+
 @media only screen and (max-width: 520px) {
   .header__inner {
     padding: 16px 0;
-  }
-  .navbar {
-    display: none;
   }
   .navbar__burger-button {
     display: inline-block;
@@ -1681,6 +1692,10 @@ img {
   }
 }
 
+.footer__inner {
+  margin-bottom: 40px;
+}
+
 .footer__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1763,11 +1778,79 @@ img {
   color: #22343D;
 }
 
+.foote__sublink {
+  color: #22343D;
+  text-decoration: none;
+}
+
 .footer__text-strong {
+  display: inline-block;
   margin-bottom: 34px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: #22343D;
+}
+
+.footer__input {
+  width: 100%;
+  max-width: 325px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  background: #FFFFFF;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+}
+
+.footer__button {
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #02897A;
+  border-radius: 4px;
+  border: transparent;
+}
+
+.footer__copyright-text {
+  display: block;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #22343D;
+  text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+  .footer__inner {
+    margin-bottom: 24px;
+  }
+  .footer__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__item {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .footer__item:nth-child(1) {
+    margin-right: 0;
+  }
+  .footer__item:nth-child(2) {
+    margin-right: 0;
+  }
+  .footer__item:nth-child(3) {
+    margin-right: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
