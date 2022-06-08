@@ -1,24 +1,22 @@
-.suggestion__inner {
-  display: flex;
-  justify-content: center;
-}
-
 .box {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 50px; 
+  padding: 40px 50px; 
   width: 100%;
   max-width: 968px;
   background-color: #02897A;
   border-radius: 32px;
+  background-image: url("../../images/box-img.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .box__text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   width: 100%;
   max-width: 500px;
 }
@@ -33,6 +31,7 @@
 }
 
 .box__link {
+  margin-bottom: 20px;
   padding: 13px 50px;
   display: inline-block;
   font-weight: 600;
@@ -49,6 +48,8 @@
   .box {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 373px;
+    background-position: center bottom;
   }
 
   .box__title {
