@@ -526,6 +526,9 @@ img {
   .header__inner {
     padding: 16px 0;
   }
+  .navbar {
+    display: none;
+  }
   .navbar__burger-button {
     display: inline-block;
     margin-left: auto;
@@ -1353,6 +1356,16 @@ img {
 .price__wrapper {
   margin: 0 auto;
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.price__title-text {
+  display: inline-block;
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
 }
 
 .price__title {
@@ -1487,6 +1500,15 @@ img {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.price__title-pricing-page {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
   color: #22343D;
 }
 
@@ -1690,6 +1712,121 @@ img {
   .box__link {
     margin: 0 auto;
   }
+}
+
+.enterprise {
+  padding-top: 53px;
+  background-color: #E5E5E5;
+}
+
+.enterprise__inner {
+  text-align: center;
+}
+
+.enterprise__name {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+}
+
+.enterprise__title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.enterprise__info {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D;
+}
+
+.enterprice__link {
+  display: inline-block;
+  margin-bottom: 212px;
+  padding: 11px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.enterprice__text {
+  margin: 0;
+  margin-bottom: 56px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 149px;
+}
+
+.user__img {
+  margin-right: 63px;
+  width: 100%;
+  max-width: 528px;
+  height: 100%;
+  max-height: 392px;
+}
+
+.user__list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+  list-style-type: none;
+  text-align: left;
+}
+
+.user__item {
+  margin-bottom: 32px;
+  padding: 0;
+}
+
+.user__item:nth-child(1) {
+  background-image: url("../../images/enterpreneur-img.svg");
+  background-repeat: no-repeat;
+}
+
+.user__item:nth-child(2) {
+  background-image: url("../../images/accountants-img.svg");
+  background-repeat: no-repeat;
+}
+
+.user__item:nth-child(3) {
+  background-image: url("../../images/universities-img.svg");
+  background-repeat: no-repeat;
+}
+
+.user__title {
+  margin: 0;
+  margin-bottom: 23px;
+  margin-left: 64px;
+  padding: 7px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+}
+
+.user__info {
+  margin: 0;
 }
 
 .footer__inner {

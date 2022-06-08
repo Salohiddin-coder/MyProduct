@@ -5,6 +5,16 @@
 .price__wrapper {
   margin: 0 auto;
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.price__title-text {
+  display: inline-block;
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
 }
 
 .price__title {
@@ -131,17 +141,26 @@
   color: #22343D;
 }
 
+.price__title-pricing-page {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+}
+
 
 @media only screen and (max-width:520px) {
   .price__list {
     flex-direction: column;
     align-items: center;
   }
-
+  
   .price__item {
     margin-bottom: 32px;
   }
-
+  
   .price__item:nth-child(3) {
     margin-bottom: 0;
   }
