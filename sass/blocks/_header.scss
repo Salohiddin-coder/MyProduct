@@ -68,7 +68,38 @@
 }
 
 .navbar__burger-button {
-  display: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar__burger-button > span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 5px;
+  border-radius: 99px;
+  background-color: #173A56;
+  transition: 0.3s ease;
+  transform-origin: left;
+  border: 3px solid #173A56;
+}
+
+.navbar__burger-button span.active span:nth-child(1) {
+  transform: rotate(40deg);
+}
+
+.button-active > span:nth-child(1) {
+  transform: rotate(40deg);
+}
+
+.button-active > span:nth-child(2) {
+  transform: scale(0);
+}
+
+.button-active > span:nth-child(3) {
+  transform: rotate(-40deg);
 }
 
 .navbar__button {
