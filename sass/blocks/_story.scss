@@ -1,0 +1,154 @@
+.story__inner {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.story__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.story__info {
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.story__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.story__item {
+  width: 100%;
+  max-width: 348px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.card-text {
+  margin: 0;
+  line-height: 28px;
+  font-size: 14px;
+  color: #22343D;
+}
+
+.card-name {
+  margin: 0;
+  font-weight: 700;
+  line-height: 30px;
+  color: #22343D;
+}
+
+.story__link {
+  color: #22343D;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.story-contact{
+  padding-top: 150px;
+}
+
+.story-contact__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.story-content__info {
+  margin: 0;
+}
+
+.story-contact__iframe {
+  margin: 65px 0;
+}
+
+.message-box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 868px;
+  padding: 50px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.message-box__title {
+  margin: 0;
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.message__controller {
+  margin-bottom: 45px;
+  padding: 20px;
+  width: 100%;
+  max-width: 768px;
+  background-color: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+}
+
+.message {
+  width: 100%;
+  max-width: 768px;
+  height: 100%;
+  min-height: 193px;
+  padding: 20px;
+  margin-bottom: 45px;
+  background-color: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  resize: none;
+}
+
+.message__button {
+  padding: 18px 54px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background-color: #02897A;
+  border-radius: 35px;
+  border: transparent;
+}
+
+
+
+@media only screen and (max-width: 520px) {
+  .story__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .story__item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .message-box {
+    padding: 0;
+    border: none;
+  }
+}

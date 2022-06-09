@@ -1,0 +1,116 @@
+.business-page__inner {
+  margin-top: 77px;
+  margin-bottom: 70px;
+  padding-bottom: 53px;
+  background-image: url("../../images/business-page-bgimg2.png"), url("../../images/business-page-bgimg1.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, calc(50% + 230px) top;
+  background-size: 395px 263px, 435px 426px;
+  // background-size: 541px 482px, ;
+}
+
+.business-page__content {
+  width: 100%;
+  max-width: 535px;
+}
+
+.business-page__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 149%;
+  letter-spacing: -0.03em;  
+  color: #22343D;
+}
+
+.business-page__info {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+}
+
+.business-page__label-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 8px 8px 8px 27px;
+  width: 100%;
+  max-width: 469px;
+  border: 1px solid #EAEAEA;
+  border-radius: 100px;
+}
+
+.business-page__input {
+  border: transparent;
+}
+
+.business-page__button {
+  padding: 25px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0px;
+  background-color: #02897A;
+  border-radius: 100px;
+  border: transparent;
+  color: #fff;
+}
+
+.busines-page__img {
+  margin-right: 9px;
+  vertical-align: middle;
+}
+
+.business-page__text {
+  display: inline-block;
+}
+
+.busines-page__text-different {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #02897A;
+}
+
+
+@media only screen and (max-width:520px) {
+  .business-page__inner {
+    padding-bottom: 0;
+    background-image: none;
+  }
+
+  .business-page__content {
+    padding-bottom: 350px;
+    background-image: url("../../images/business-page-bgimg2.png");
+    background-repeat: no-repeat;
+    background-size: 395px 263px;
+    background-position: bottom center;
+  }
+
+  .business-page__title {
+    text-align: center;
+  }
+
+  .business-page__info {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:405px) {
+  .business-page__inner {
+    text-align: center;
+  }
+  .business-page__label-box {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .business-page__input {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #22343D;
+  }
+}
